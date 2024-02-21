@@ -1,6 +1,6 @@
 
 
-fetch('https://whatyearisit-backend-ten-khaki.vercel.app/year')
+fetch('https://whatyearisit-backend-psi-eight.vercel.app/year')
     .then(response => response.json())
     .then(data => {
         console.log('Année :', data);
